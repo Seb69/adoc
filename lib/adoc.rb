@@ -1,3 +1,4 @@
+require "adoc/template"
 require "adoc/version"
 
 module Adoc

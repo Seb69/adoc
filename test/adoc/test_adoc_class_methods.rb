@@ -18,7 +18,6 @@ class TestAdocClassMethods < MiniTest::Test
       adoc b_doc,
       def my_method;end
     end
-
     refute_equal @a_doc, @b_doc
     assert_equal @a, @b.superclass
   end
